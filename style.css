@@ -1,0 +1,61 @@
+.mainDiv {
+    width: 600px;
+    height: 500%;
+    background: #ddd;
+    display: grid;
+    place-items: center;
+
+}
+
+.myForm {
+    width: 80%;
+    height: auto;
+    background: rgb(53, 46, 46);
+
+}
+
+.div1 {
+    width: 100%;
+    padding: 12px 12px;
+}
+
+.label {
+    width: 100%;
+    color: #fff;
+    font-family: 'Montserrat', sense-serif;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.div1 input {
+    width: 88%;
+    padding: 12px 12px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 8px 0px;
+    border: none;
+}
+
+.btn {
+    width: 94%;
+    padding: 8px 8px;
+    background-color: green;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 12px 0;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px white;
+
+}
+
+.email_error,
+.pass_error {
+    width: 93%;
+    padding: 9px 0;
+    color: red;
+    background: pink;
+    border: 2px solid red;
+    display: none;
+
+}
